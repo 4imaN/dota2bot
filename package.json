@@ -1,0 +1,10 @@
+{
+  "name": "dota2bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "check": "node --check src/index.js && node --check src/commands.js && node --check src/opendota.js && node --check src/telegram.js && node --check src/config.js && node --check src/storage.js"
+  }
+}
