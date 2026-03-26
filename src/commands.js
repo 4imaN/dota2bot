@@ -54,7 +54,7 @@ export async function handleCommand(message) {
       return {
         text: [
           "This bot uses OpenDota to show hero stats, pro pick and ban trends, live games, match summaries, and player info.",
-          "You can also link your Dota account once and use /lastmatch anytime.",
+          "You can also link your Dota account once and use /lastmatch anytime to see your latest match.",
           "",
           helpText
         ].join("\n")
